@@ -11950,4 +11950,16 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+.banner {
+  background-image: url(../img/banner.png);
+  background-size: cover;
+  height: 640px;
+}
+
+@media (min-width: 991px) {
+  .banner {
+    height: 780px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
