@@ -1,14 +1,4 @@
 @import 'bootstrap/bootstrap';
 @import 'mixin';
-
-.banner {
-    background-image: url(../img/banner.png);
-    background-size: cover;
-    height: 640px;
-}
-
-@include desktop() {
-    .banner {
-        height: 780px;
-    }
-}
+@import 'components/banner';
+@import 'components/button';
