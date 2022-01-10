@@ -1,0 +1,8 @@
+.card {
+    &_award {
+        height: 93px;
+        @include desktop() {
+            height: 388px;
+        }
+    }
+}

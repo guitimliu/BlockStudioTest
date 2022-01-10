@@ -11988,10 +11988,50 @@ fieldset:disabled .btn {
   }
 }
 
+.btn {
+  text-decoration: none;
+}
+
 .btn_more {
   display: block;
+  margin: auto;
+  text-align: center;
+  line-height: 50px;
   width: 250px;
   height: 50px;
-  background-color: gray;
+}
+
+.btn_menu {
+  width: 70px;
+  height: 70px;
+  display: block;
+  background-color: #000;
+}
+
+@media (min-width: 991px) {
+  .btn_menu {
+    width: 95px;
+    height: 100px;
+  }
+}
+
+.icon_sidebar {
+  margin-left: 42px;
+}
+
+.icon_footer {
+  margin-left: 54px;
+}
+
+.img_award {
+  width: 90px;
+  height: 83.94px;
+}
+
+@media (min-width: 991px) {
+  .img_award {
+    width: 384px;
+    height: 360px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

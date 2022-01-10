@@ -1,8 +1,21 @@
 .btn {
+    text-decoration: none;
     &_more {
         display: block;
+        margin: auto;
+        text-align: center;
+        line-height: 50px;
         width: 250px;
         height: 50px;
-        background-color: gray;
+    }
+    &_menu {
+        width: 70px;
+        height: 70px;
+        display: block;
+        background-color: #000;
+        @include desktop() {
+            width: 95px;
+            height: 100px;
+        }
     }
 }
