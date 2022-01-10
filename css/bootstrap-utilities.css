@@ -1329,6 +1329,10 @@
   font-size: calc(1.5rem + 3vw) !important;
 }
 
+.fs-10 {
+  font-size: calc(1.525rem + 3.3vw) !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -4584,6 +4588,9 @@
   }
   .fs-9 {
     font-size: 3.75rem !important;
+  }
+  .fs-10 {
+    font-size: 4rem !important;
   }
 }
 
