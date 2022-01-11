@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- sidebar -->
-    <div class="d-block w-25 bg-dark vh-100 d-flex flex-column justify-content-between">
+    <div class="sidebar w-25 bg-dark vh-100 flex-column justify-content-between">
         <!-- sidebar 主選單 -->
         <a href="#"></a>
         <div>
@@ -141,12 +141,12 @@
 
     <a href="#" class="btn btn_more border border-1 border-black link-black mb-11 mb-md-14">More</a>
     
-    <footer class="bg-black text-white">
+    <footer class="bg-black text-white pt-3 pt-md-5 pb-4 pb-md-6 px-3 px-0">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="d-flex">
-                        <h2 class="border-top border-1 border-white">B</h2>
+                        <h2 class="border-top border-1 border-white d-none d-md-block me-6">B</h2>
                         <div>
                             <ul class="d-flex justify-content-between list-unstyled mb-3 mb-md-1">
                                 <li><a class="text-white text-decoration-none" href="#">About</a></li>
@@ -163,7 +163,7 @@
                 </div>
                 <div class="col-md-6">
                     <ul class="d-flex justify-content-between justify-content-md-end list-unstyled mb-0">
-                        <li class="icon_footer"><a href="#"><img src="./img/facebookIcon.png" alt="Facebook"></a></li>
+                        <li class="icon_footer ms-0"><a href="#"><img src="./img/facebookIcon.png" alt="Facebook"></a></li>
                         <li class="icon_footer"><a href="#"><img src="./img/instagramIcon.png" alt="Instagram"></a></li>
                         <li class="icon_footer"><a href="#"><img src="./img/youtubeIcon.png" alt="YouTube"></a></li>
                     </ul>
@@ -172,6 +172,15 @@
         </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./js/bootstrap/bootstrap.min.js"></script>
+    <script>
+
+        $('.btn_menu').click((e) => {
+            $('.sidebar').fadeToggle(200);
+        })
+
+
+    </script>
 </body>
 </html>
