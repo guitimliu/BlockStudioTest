@@ -5,6 +5,7 @@
 
         @include desktop() {
             width: 384px;
+            max-width: 100%;
             height: 360px;
         }
     }

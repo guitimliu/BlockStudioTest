@@ -9,37 +9,37 @@
 </head>
 <body>
     <!-- sidebar -->
-    <div class="d-block w-25 bg-dark vh-100">
+    <div class="d-block w-25 bg-warning vh-100 d-flex flex-column justify-content-between">
         <!-- sidebar 主選單 -->
         <a href="#"></a>
-        <div class="container">
-            <ul class="list-unstyled">
-                <li><a class="text-white text-decoration-none" href="#">Home</a></li>
-                <li><a class="text-white text-decoration-none" href="#">Website</a></li>
-                <li><a class="text-white text-decoration-none" href="#">Branding</a></li>
-            </ul>
-        </div>
-        <div class="bg-dark">
-            <!-- sidebar 聯絡資訊 -->
+        <div>
             <div class="container">
-                <ul>
+                <ul class="list-unstyled">
+                    <li><a class="text-white text-decoration-none" href="#">Home</a></li>
+                    <li><a class="text-white text-decoration-none" href="#">Website</a></li>
+                    <li><a class="text-white text-decoration-none" href="#">Branding</a></li>
+                </ul>
+            </div>
+            <div class="vh-25 bg-dark d-flex align-items-center">
+                <!-- sidebar 聯絡資訊 -->
+                <div class="container">
                     <ul class="list-unstyled text-white fs-1">
                         <li>T. 02-2885-8586</li>
                         <li>E. info@blockstudio.tw</li>
                         <li>3F., No.2, Ln. 80, Sec. 4, Chengde Rd., Shilin Dist., Taipei City 111, Taiwan</li>
                     </ul>
-                </ul>
-                <!-- sidebar 社群 Icon -->
-                <ul class="d-flex list-unstyled">
-                    <li class="icon_sidebar"><a href="#"><img src="./img/facebookIcon.png" alt="Facebook"></a></li>
-                    <li class="icon_sidebar"><a href="#"><img src="./img/instagramIcon.png" alt="Instagram"></a></li>
-                    <li class="icon_sidebar"><a href="#"><img src="./img/youtubeIcon.png" alt="YouTube"></a></li>
-                </ul>
+                    <!-- sidebar 社群 Icon -->
+                    <ul class="d-flex list-unstyled">
+                        <li class="icon_sidebar"><a href="#"><img src="./img/facebookIcon.png" alt="Facebook"></a></li>
+                        <li class="icon_sidebar"><a href="#"><img src="./img/instagramIcon.png" alt="Instagram"></a></li>
+                        <li class="icon_sidebar"><a href="#"><img src="./img/youtubeIcon.png" alt="YouTube"></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
     <!-- Banner 區塊 -->
-    <div class="banner d-flex flex-column justify-content-between">
+    <div class="banner d-flex flex-column justify-content-between mb-6 mb-md-14">
         <!-- 頁首 -->
         <header class="d-flex justify-content-between">
             <h1 class="border-top border-1 border-dark">B</h1>
@@ -52,14 +52,17 @@
         </header>
         <!-- Banner 內容 -->
         <div class="container text-center">
-            <h2 class="h3 fw-bold">Commercial builders with pride – <br>workmanship that values quality.</h2>
-            <p>Acclaim Contractors are a highly specialised local business with over 20 years building and civil industry<br>experience with many accolades, commendations and awards recognising the building .</p>
-            <p>***</p>
+            <p>Block Studio© Copyright. All Rights Reserved.</p>
+            <div>
+                <h2 class="h3 fw-bold">Commercial builders with pride – <br>workmanship that values quality.</h2>
+                <p>Acclaim Contractors are a highly specialised local business with over 20 years building and civil industry<br>experience with many accolades, commendations and awards recognising the building .</p>
+                <p>***</p>
+            </div>
         </div>
-        <ul class="d-flex list-unstyled">
-            <li class="icon_sidebar"><a href="#"><img src="./img/facebookIcon.png" alt="Facebook"></a></li>
-            <li class="icon_sidebar"><a href="#"><img src="./img/instagramIcon.png" alt="Instagram"></a></li>
-            <li class="icon_sidebar"><a href="#"><img src="./img/youtubeIcon.png" alt="YouTube"></a></li>
+        <ul class="d-none d-md-flex list-unstyled">
+            <li class="icon_sidebar"><a href="#"><img src="./img/facebookIcon-dark.png" alt="Facebook"></a></li>
+            <li class="icon_sidebar"><a href="#"><img src="./img/instagramIcon-dark.png" alt="Instagram"></a></li>
+            <li class="icon_sidebar"><a href="#"><img src="./img/youtubeIcon-dark.png" alt="YouTube"></a></li>
         </ul>
         <!-- <div class="card">
             HOME
@@ -74,27 +77,99 @@
         </div>
 
         <!-- YT 影片 -->
-        <div>YouTube 影片</div>
+        <div class="mb-3 mb-md-12">YouTube 影片</div>
 
         <ul class="row list-unstyled">
+            <!-- card item -->
             <li class="col-md-4">
-                <div class="card">
-                    <h3 class="card-title">Award winning civil conactors that  government.</h3>
-                    <p class="d-none d-md-block fs-1">The Australian Treasury Building & King Edward TCE Barton Canberra City.</p>
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <h3 class="fs-5 fw-bold mb-md-11">Award winning civil conactors that  government.</h3>
+                        <p class="d-none d-md-block fs-1 mb-md-5">The Australian Treasury Building & King Edward TCE Barton Canberra City.</p>
+                    </div>
+                </div>
+            </li>
+            <!-- card item -->
+            <li class="col-md-4">
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <h3 class="fs-5 fw-bold mb-md-11">Award winning civil conactors that  government.</h3>
+                        <p class="d-none d-md-block fs-1 mb-md-5">The Australian Treasury Building & King Edward TCE Barton Canberra City.</p>
+                    </div>
+                </div>
+            </li>
+            <!-- card item -->
+            <li class="col-md-4">
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <h3 class="fs-5 fw-bold mb-md-11">Award winning civil conactors that  government.</h3>
+                        <p class="d-none d-md-block fs-1 mb-md-5">The Australian Treasury Building & King Edward TCE Barton Canberra City.</p>
+                    </div>
                 </div>
             </li>
         </ul>
     
-        <ul class="row list-unstyled">
+        <ul class="row list-unstyled mb-5 mb-md-11">
+            <!-- card item -->
             <li class="col-md-4">
-                <div class="card">
+                <div class="card mb-2">
                     <div class="d-flex flex-md-column">
                         <img class="card-top-img img_award" src="./img/award-1.png" alt="Woden Public Realm Improvements Works Package Lift & Stairs">
                         <div class="card-body">
-                            <span class="d-none d-md-block bg-dark text-white fs-1">Award</span>
-                            <h3 class="fs-3">Woden Public Realm Improvements Works Package Lift & Stairs</h3>
-                            <p class="d-none d-md-block fs-1">Urban Public Realm Refurbishment.</p>
-                            <div class="container p-0 d-none d-md-block fs-1">
+                            <span class="d-none d-md-block btn_award bg-dark text-white fs-1 mb-1">Award</span>
+                            <h3 class="fs-5 fw-bold mb-1">Woden Public Realm Improvements Works Package Lift & Stairs</h3>
+                            <p class="d-none d-md-block fs-1 mb-1">Urban Public Realm Refurbishment.</p>
+                            <div class="container p-0 d-none d-md-block fs-1 mb-md-3">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <span>CLENT</span><br>
+                                        ACT Government
+                                    </div>
+                                    <div class="col-6">
+                                        <span>STATUS</span><br>
+                                        Completed 2017
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- card item -->
+            <li class="col-md-4">
+                <div class="card mb-2">
+                    <div class="d-flex flex-md-column">
+                        <img class="card-top-img img_award" src="./img/award-1.png" alt="Woden Public Realm Improvements Works Package Lift & Stairs">
+                        <div class="card-body">
+                            <span class="d-none d-md-block btn_award bg-dark text-white fs-1 mb-1">Award</span>
+                            <h3 class="fs-5 fw-bold mb-1">Woden Public Realm Improvements Works Package Lift & Stairs</h3>
+                            <p class="d-none d-md-block fs-1 mb-1">Urban Public Realm Refurbishment.</p>
+                            <div class="container p-0 d-none d-md-block fs-1 mb-md-3">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <span>CLENT</span><br>
+                                        ACT Government
+                                    </div>
+                                    <div class="col-6">
+                                        <span>STATUS</span><br>
+                                        Completed 2017
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- card item -->
+            <li class="col-md-4">
+                <div class="card mb-2">
+                    <div class="d-flex flex-md-column">
+                        <img class="card-top-img img_award" src="./img/award-1.png" alt="Woden Public Realm Improvements Works Package Lift & Stairs">
+                        <div class="card-body">
+                            <span class="d-none d-md-block btn_award bg-dark text-white fs-1 mb-1">Award</span>
+                            <h3 class="fs-5 fw-bold mb-1">Woden Public Realm Improvements Works Package Lift & Stairs</h3>
+                            <p class="d-none d-md-block fs-1 mb-1">Urban Public Realm Refurbishment.</p>
+                            <div class="container p-0 d-none d-md-block fs-1 mb-md-3">
                                 <div class="row">
                                     <div class="col-6">
                                         <span>CLENT</span><br>
@@ -114,7 +189,7 @@
     </div>
 
     <!-- <a href="#" class="btn_more d-block border border-1 border-dark link-dark text-decoration-none m-auto">More</a> -->
-    <a href="#" class="btn btn_more border border-1 border-dark link-dark">More</a>
+    <a href="#" class="btn btn_more border border-1 border-dark link-dark mb-11 mb-md-14">More</a>
     
     <footer class="bg-dark text-white">
         <div class="container">
@@ -123,12 +198,12 @@
                     <div class="d-flex">
                         <h2 class="border-top border-1 border-white">B</h2>
                         <div>
-                            <ul class="d-flex justify-content-between list-unstyled">
+                            <ul class="d-flex justify-content-between list-unstyled mb-3 mb-md-1">
                                 <li><a class="text-white text-decoration-none" href="#">About</a></li>
                                 <li><a class="text-white text-decoration-none" href="#">Website</a></li>
                                 <li><a class="text-white text-decoration-none" href="#">Branding</a></li>
                             </ul>
-                            <ul class="list-unstyled text-center text-md-start fs-1">
+                            <ul class="list-unstyled text-center text-md-start fs-1 mb-3">
                                 <li>T. 02-2885-8586</li>
                                 <li>E. info@blockstudio.tw</li>
                                 <li>3F., No.2, Ln. 80, Sec. 4, Chengde Rd., Shilin Dist., Taipei City 111, Taiwan</li>
