@@ -73,7 +73,8 @@ $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         $gray-100 !default;
+// $light:         $gray-100 !default;
+$light:         #9B9B9B !default;
 // $dark:          $gray-900 !default;
 $dark:          #2C2C2C !default;
 // scss-docs-end theme-color-variables
