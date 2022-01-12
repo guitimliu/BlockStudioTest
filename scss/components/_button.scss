@@ -11,7 +11,9 @@
     &_menu {
         width: 70px;
         height: 70px;
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: #000;
         @include desktop() {
             width: 95px;

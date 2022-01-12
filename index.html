@@ -17,32 +17,31 @@
     <div class="sidebar bg-dark">
         <div class="d-flex flex-column justify-content-between vh-100">
             <!-- sidebar 主選單 -->
-            <a class="btn_close text-white h5 ms-auto" href="#">Ｘ</a>
-            <div class="container">
-                <ul class="list-unstyled">
-                    <li class="py-3"><a class="text-white" href="#">Home</a></li>
-                    <li class="py-3"><a class="text-white" href="#">Website</a></li>
-                    <li class="py-3"><a class="text-white" href="#">Branding</a></li>
-                </ul>
-            </div>
-            <div class="vh-25 bg-black d-flex align-items-center">
+            <a class="btn_close text-white h5 ms-auto p-2" href="#">
+                <img src="./img/x.png" alt="">
+            </a>
+            <ul class="list-unstyled ps-4">
+                <li class="py-3"><a class="text-white" href="#">Home</a></li>
+                <li class="py-3"><a class="text-white" href="#">Website</a></li>
+                <li class="py-3"><a class="text-white" href="#">Branding</a></li>
+            </ul>
+            <div class="bg-black ps-4 py-4">
                 <!-- sidebar 聯絡資訊 -->
-                <div class="container">
-                    <ul class="list-unstyled text-white fs-1">
-                        <li>T. 02-2885-8586</li>
-                        <li>E. info@blockstudio.tw</li>
-                        <li>3F., No.2, Ln. 80, Sec. 4, Chengde Rd., Shilin Dist., Taipei City 111, Taiwan</li>
-                    </ul>
-                    <!-- sidebar 社群 Icon -->
-                    <ul class="d-flex list-unstyled">
-                        <li class="icon_sidebar"><a href="#"><img src="./img/facebookIcon.png" alt="Facebook"></a></li>
-                        <li class="icon_sidebar"><a href="#"><img src="./img/instagramIcon.png" alt="Instagram"></a></li>
-                        <li class="icon_sidebar"><a href="#"><img src="./img/youtubeIcon.png" alt="YouTube"></a></li>
-                    </ul>
-                </div>
+                <ul class="list-unstyled text-white fs-1">
+                    <li>T. 02-2885-8586</li>
+                    <li>E. info@blockstudio.tw</li>
+                    <li>3F., No.2, Ln. 80, Sec. 4, Chengde Rd., Shilin Dist., Taipei City 111, Taiwan</li>
+                </ul>
+                <!-- sidebar 社群 Icon -->
+                <ul class="d-flex list-unstyled">
+                    <li class="icon_sidebar"><a href="#"><img src="./img/facebookIcon.png" alt="Facebook"></a></li>
+                    <li class="icon_sidebar"><a href="#"><img src="./img/instagramIcon.png" alt="Instagram"></a></li>
+                    <li class="icon_sidebar"><a href="#"><img src="./img/youtubeIcon.png" alt="YouTube"></a></li>
+                </ul>
             </div>
         </div>
     </div>
+    
     <!-- Banner 區塊 -->
     <div class="banner d-flex flex-column justify-content-between mb-6 mb-md-14 ps-2 ps-md-4">
         <!-- 頁首 -->
@@ -52,7 +51,7 @@
                 <li class="d-none d-md-block mx-3"><a class="nav-link active" href="#">Home</a></li>
                 <li class="d-none d-md-block mx-3"><a class="nav-link" href="#">Website</a></li>
                 <li class="d-none d-md-block mx-3"><a class="nav-link" href="#">Branding</a></li>
-                <li><a class="btn_menu" href="#">=</a></li>
+                <li><a class="btn_menu" href="#"><img src="./img/menu.png" alt=""></a></li>
             </ul>
         </header>
         <!-- Banner 內容 -->
@@ -93,12 +92,9 @@
         <div class="modal fade" id="ytVideo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl">
                 <div class="modal-content bg-dark">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                    <div class="modal-body">
-                        <iframe width="560" height="315" src="影片網址" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <button type="button" class="ms-auto btn-close p-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="px-5 py-1">
+                        <iframe width="100%" height="450px" src="https://www.youtube.com/embed/WZyg7jeS9fY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -114,9 +110,77 @@
                     </div>
                 </div>
             </li>
+            <!-- card item -->
+            <li class="col-md-4">
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <h3 class="fs-5 fw-bold mb-md-11">Award winning civil conactors that  government.</h3>
+                        <p class="d-none d-md-block fs-1 mb-md-5">The Australian Treasury Building & King Edward TCE Barton Canberra City.</p>
+                    </div>
+                </div>
+            </li>
+            <!-- card item -->
+            <li class="col-md-4">
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <h3 class="fs-5 fw-bold mb-md-11">Award winning civil conactors that  government.</h3>
+                        <p class="d-none d-md-block fs-1 mb-md-5">The Australian Treasury Building & King Edward TCE Barton Canberra City.</p>
+                    </div>
+                </div>
+            </li>
         </ul>
     
         <ul class="row list-unstyled mb-5 mb-md-11">
+            <!-- card item -->
+            <li class="col-md-4">
+                <div class="card mb-2">
+                    <div class="d-flex flex-md-column">
+                        <img class="card-top-img img_award" src="./img/award-1.png" alt="Woden Public Realm Improvements Works Package Lift & Stairs">
+                        <div class="card-body">
+                            <span class="d-none d-md-block btn_award bg-black text-white fs-1 mb-1">Award</span>
+                            <h3 class="fs-5 fw-bold mb-1">Woden Public Realm Improvements Works Package Lift & Stairs</h3>
+                            <p class="d-none d-md-block fs-1 mb-1">Urban Public Realm Refurbishment.</p>
+                            <div class="container p-0 d-none d-md-block fs-1 mb-md-3">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <span class="text-light">CLENT</span><br>
+                                        ACT Government
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="text-light">STATUS</span><br>
+                                        Completed 2017
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- card item -->
+            <li class="col-md-4">
+                <div class="card mb-2">
+                    <div class="d-flex flex-md-column">
+                        <img class="card-top-img img_award" src="./img/award-1.png" alt="Woden Public Realm Improvements Works Package Lift & Stairs">
+                        <div class="card-body">
+                            <span class="d-none d-md-block btn_award bg-black text-white fs-1 mb-1">Award</span>
+                            <h3 class="fs-5 fw-bold mb-1">Woden Public Realm Improvements Works Package Lift & Stairs</h3>
+                            <p class="d-none d-md-block fs-1 mb-1">Urban Public Realm Refurbishment.</p>
+                            <div class="container p-0 d-none d-md-block fs-1 mb-md-3">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <span class="text-light">CLENT</span><br>
+                                        ACT Government
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="text-light">STATUS</span><br>
+                                        Completed 2017
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
             <!-- card item -->
             <li class="col-md-4">
                 <div class="card mb-2">
@@ -180,16 +244,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./js/bootstrap/bootstrap.min.js"></script>
-    <script>
-
-        $('.btn_menu').click(() => {
-            $('.sidebar').fadeToggle(200);
-        })
-
-        $('.btn_close').click(() => {
-            $('.sidebar').fadeToggle(200);
-        })
-
-    </script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
